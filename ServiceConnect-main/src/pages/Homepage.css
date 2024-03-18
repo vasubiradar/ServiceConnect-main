@@ -1,0 +1,112 @@
+/* Homepage.css */
+
+.hero__video-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.hero__video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hero__content {
+    position: absolute;
+    top: 40%; /* Adjust the vertical position */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.hero__title {
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Black transparent background */
+    padding: 15px; /* Adjust padding as needed */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+}
+
+.button-hero {
+    border-radius: 50%;
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.button-hero:hover {
+    background-color: #45a049;
+}
+
+/* Homepage.css */
+
+.navbar-search-button {
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+  
+
+/* Homepage.css */
+
+.category-heading {
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.7); /* Transparent white background color */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px;
+    font-size: 24px;
+    color: #333; /* Dark text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  }
+  
+
+.category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .category-card {
+    width: calc(25% - 20px); /* 4 cards in a row with 20px margin between them */
+    margin: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    padding: 10px; /* Adjust padding as needed */
+    box-sizing: border-box;
+  }
+  
+  .category-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .category-card div {
+    padding: 10px;
+  }
+  
+  .category-card div strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .category-card div p {
+    display: none;
+    margin: 0;
+  }
+  
+  .category-card:hover div p {
+    display: block;
+  }
+  

@@ -1,0 +1,81 @@
+.profile-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.profile-container h2 {
+  color: #333;
+}
+
+.profile-container p {
+  font-size: 20px;
+  color: #666;
+}
+
+.profile-container button {
+  padding: 10px 20px;
+  align-self: center;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-container button:hover {
+  background-color: #555;
+}
+
+.profile-bookings {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.profile-bookings h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.profile-bookings ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-bookings li {
+  margin: 15px 0;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-bookings img {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.profile-bookings p {
+  font-size: 18px;
+  color: #666;
+  margin: 8px 0;
+}
+
+.profile-bookings .no-bookings {
+  color: #999;
+  font-style: italic;
+}

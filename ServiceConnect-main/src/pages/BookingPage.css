@@ -1,0 +1,90 @@
+/* BookingPage.css */
+
+.booking-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif; /* Example font pairing */
+  background-color: #f5f5f5; /* Subtle background color */
+}
+
+.booking-details {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.subcategory-image {
+  flex: 1;
+  margin-bottom: 20px;
+  margin-right: 50px; /* Create gap on the right */
+}
+
+
+.subcategory-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Consistent border radius */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease-in-out; /* Hover effect */
+}
+
+.subcategory-image img:hover {
+  transform: scale(1.05);
+}
+
+.subcategory-info {
+  flex: 1;
+  padding-left: 15px; /* Create gap on the left */
+}
+
+.subcategory-info h2 {
+  font-size: 32px; /* Larger font size for name */
+  margin-bottom: 10px;
+}
+
+.subcategory-info p {
+  font-size: 18px; /* Adjusted font size */
+  margin-bottom: 10px;
+}
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.quantity-selector button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.quantity-selector span {
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .booking-details {
+    flex-direction: column;
+  }
+
+  .subcategory-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .subcategory-info {
+    max-width: 100%;
+  }
+
+  /* Additional adjustments for smaller screens */
+}
